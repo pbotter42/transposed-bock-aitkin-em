@@ -1,0 +1,84 @@
+# Transposed Bock-Aitkin EM
+
+**Software for the September 2026 preprint, not the final manuscript.**
+The method and its evaluation remain under development. This release does
+not provide validated parameter standard errors or confidence intervals.
+
+This package fits binary item response models when there are many items and
+relatively few subjects, such as language models answering benchmark questions.
+It treats subjects' capabilities as fixed parameters and integrates over a
+normal population of item effects. This reverses the usual Bock-Aitkin
+integration over subjects' capabilities.
+
+The implementation uses a Laplace approximation and a damped, normalized
+posterior-moment iteration. It is **not an exact marginal-likelihood optimizer**.
+The [method notes](docs/method.md) describe the equations, identification,
+updates, and stopping rule.
+
+Supported models are the 1PL and the 2PL, with either zero or estimated
+correlation between item difficulty `b` and **log discrimination** `log(a)`.
+There is no 3PL, 4PL, or parameter-inference API.
+
+## Install
+
+Use Python 3.10-3.12 (3.11 recommended) in a new virtual environment.
+From a terminal with that environment active:
+
+```sh
+python -m pip install "git+https://github.com/pbotter42/transposed-bock-aitkin-em.git@v1.4.0rc1"
+```
+
+No private files, data downloads, API keys, or machine-specific paths are needed.
+Dependencies are installed automatically. JAX requires a supported platform;
+the automated tests cover Linux, and the release is also checked on macOS.
+
+## Fit a Model
+
+```python
+import numpy as np
+from scipy.special import expit
+from transposed_em import LaplaceIRT
+
+rng = np.random.default_rng(42)
+theta = np.linspace(-1.5, 1.5, 12)
+b = rng.normal(size=80)
+a = np.exp(rng.normal(0, 0.3, size=80))
+responses = rng.binomial(1, expit(a * (theta[:, None] - b)))
+
+fit = LaplaceIRT(model="2pl", covariance="full", max_iterations=40).fit(responses)
+print(fit.subject_frame())
+print(fit.item_frame())
+print(fit.summary())
+```
+
+Rows are subjects or systems; columns are items. Responses must be `0`, `1`,
+`NaN`, or `-1` (missing). A pandas DataFrame retains row and column labels.
+Use `model="1pl"` for fixed discrimination, or `covariance="diagonal"` for the
+2PL with zero population correlation. Computation uses 64-bit arithmetic.
+
+The short example may reach its iteration limit. Check `stopping_reason_`
+and `diagnostics_` before using estimates. The default limit is 1,000;
+`fixed_point_criteria` means the numerical map was stable, not that exact
+likelihood equations were solved. Item exports are conditional modes, not
+posterior means. See the [API guide](docs/api.md) for prediction and new-subject
+scoring, and the [reproducibility notes](docs/reproducibility.md) for the
+relationship between this release and the reported analyses.
+
+## Paper and Results
+
+The [preprint release](https://github.com/pbotter42/transposed-bock-aitkin-em/releases/tag/v1.4.0rc1)
+contains the main PDF, supplement, and an Overleaf-ready source ZIP.
+The [`results/`](results) directory contains the preprint's saved result tables.
+The 100-replication study and the smaller numerical diagnostic study are
+distinct. The planned 200-replication study is future work, not a result of
+this release. The repository does not redistribute WILD responses or claim
+to reconstruct historical parameter vectors that were not saved.
+
+For development, clone this repository, run `python -m pip install -e '.[dev]'`,
+then `pytest -q`. Tests include numerical agreement with the frozen diagnostic
+implementation for all three model specifications. They do not establish
+statistical validity or replace the paper's planned studies.
+
+Code is MIT licensed. Citation information is in [CITATION.cff](CITATION.cff).
+The preprint discloses AI assistance in code development and preparation;
+the authors remain responsible for the work.

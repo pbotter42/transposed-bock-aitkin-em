@@ -1,0 +1,456 @@
+candidate,model_name,theta,rank,admissible,selected
+Transposed EM 1PL,01-ai/Yi-1.5-34B-Chat,0.9113323664316714,27.0,True,True
+Transposed EM 1PL,01-ai/Yi-1.5-6B-Chat,0.0533233707443554,46.0,True,True
+Transposed EM 1PL,01-ai/Yi-1.5-9B-Chat,0.5932512259117446,33.0,True,True
+Transposed EM 1PL,01-ai/Yi-34B-Chat,0.0952005821613069,45.0,True,True
+Transposed EM 1PL,01-ai/Yi-6B-Chat,-1.0265620285065091,62.0,True,True
+Transposed EM 1PL,01-ai/Yi-Coder-9B-Chat,-0.7500102007454161,58.0,True,True
+Transposed EM 1PL,CohereForAI/aya-expanse-32b,1.3080817727923095,21.0,True,True
+Transposed EM 1PL,CohereForAI/aya-expanse-8b,0.6624661080278306,31.0,True,True
+Transposed EM 1PL,CohereForAI/c4ai-command-r-plus-08-2024,0.5053160235528812,36.0,True,True
+Transposed EM 1PL,CohereForAI/c4ai-command-r-v01,-0.2084615643596608,49.0,True,True
+Transposed EM 1PL,CohereForAI/c4ai-command-r7b-12-2024,0.1303509203359771,44.0,True,True
+Transposed EM 1PL,Qwen/Qwen1.5-14B-Chat,0.4696419228418481,37.0,True,True
+Transposed EM 1PL,Qwen/Qwen1.5-32B-Chat,1.0828508737952738,24.0,True,True
+Transposed EM 1PL,Qwen/Qwen1.5-4B-Chat,-0.7508905751410199,59.0,True,True
+Transposed EM 1PL,Qwen/Qwen1.5-7B-Chat,0.017569992797484,47.0,True,True
+Transposed EM 1PL,Qwen/Qwen2-1.5B-Instruct,-0.8008064209945992,60.0,True,True
+Transposed EM 1PL,Qwen/Qwen2-72B-Instruct,1.7868029143153874,10.0,True,True
+Transposed EM 1PL,Qwen/Qwen2-7B-Instruct,0.7512488124709926,30.0,True,True
+Transposed EM 1PL,Qwen/Qwen2-Math-72B-Instruct,1.2079082569588993,22.0,True,True
+Transposed EM 1PL,Qwen/Qwen2-Math-7B-Instruct,-0.075796992785529,48.0,True,True
+Transposed EM 1PL,Qwen/Qwen2.5-0.5B-Instruct,-1.192929018808672,63.0,True,True
+Transposed EM 1PL,Qwen/Qwen2.5-1.5B-Instruct,-0.244597249516537,50.0,True,True
+Transposed EM 1PL,Qwen/Qwen2.5-32B-Instruct,2.0619422002299346,6.0,True,True
+Transposed EM 1PL,Qwen/Qwen2.5-3B-Instruct,0.5264816132128091,35.0,True,True
+Transposed EM 1PL,Qwen/Qwen2.5-72B-Instruct,2.082868518420861,5.0,True,True
+Transposed EM 1PL,Qwen/Qwen2.5-7B-Instruct,1.382910475015149,17.0,True,True
+Transposed EM 1PL,Qwen/Qwen2.5-Coder-14B-Instruct,1.4243782038741135,15.0,True,True
+Transposed EM 1PL,Qwen/Qwen2.5-Coder-32B-Instruct,1.689481143432146,12.0,True,True
+Transposed EM 1PL,allenai/OLMo-2-0325-32B-Instruct,1.034048121714584,25.0,True,True
+Transposed EM 1PL,allenai/OLMo-2-1124-13B-Instruct,0.5320924705675171,34.0,True,True
+Transposed EM 1PL,allenai/OLMo-2-1124-7B-Instruct,0.1908858023418541,42.0,True,True
+Transposed EM 1PL,allenai/OLMo-7B-Instruct-hf,-1.4146042329448307,65.0,True,True
+Transposed EM 1PL,claude-3-haiku,0.899404509611896,28.0,True,True
+Transposed EM 1PL,claude-3-sonnet,1.318421461252008,20.0,True,True
+Transposed EM 1PL,claude-3.5-haiku,1.5656935416452946,14.0,True,True
+Transposed EM 1PL,claude-3.5-sonnet,2.1380819821665846,4.0,True,True
+Transposed EM 1PL,deepseek-ai/deepseek-llm-7b-chat,-1.2322793470004902,64.0,True,True
+Transposed EM 1PL,gpt-4.1,2.164841854147488,3.0,True,True
+Transposed EM 1PL,gpt-4.1-mini,2.1902845568334395,2.0,True,True
+Transposed EM 1PL,gpt-4.1-nano,1.384551138348261,16.0,True,True
+Transposed EM 1PL,gpt-4o,1.8186194496645407,9.0,True,True
+Transposed EM 1PL,gpt-4o-mini,1.6427105063553211,13.0,True,True
+Transposed EM 1PL,ibm-granite/granite-3.2-2b-instruct,-0.4108103699314467,53.0,True,True
+Transposed EM 1PL,ibm-granite/granite-3.2-8b-instruct,0.4094842690730948,39.0,True,True
+Transposed EM 1PL,llama-3.1-70b,2.008849663926113,7.0,True,True
+Transposed EM 1PL,llama-3.1-8b,0.6304754689992818,32.0,True,True
+Transposed EM 1PL,llama-3.2-1b,-0.8728301520523386,61.0,True,True
+Transposed EM 1PL,llama-3.2-3b,0.2644931100873415,41.0,True,True
+Transposed EM 1PL,microsoft/phi-4,1.3286433791524863,19.0,True,True
+Transposed EM 1PL,mistralai/Codestral-22B-v0.1,-0.6330181618368352,57.0,True,True
+Transposed EM 1PL,mistralai/Ministral-8B-Instruct-2410,0.2666855933528384,40.0,True,True
+Transposed EM 1PL,mistralai/Mistral-7B-Instruct-v0.3,-0.6134248337912719,55.0,True,True
+Transposed EM 1PL,mistralai/Mistral-Small-Instruct-2409,0.930822658477258,26.0,True,True
+Transposed EM 1PL,mistralai/Mixtral-8x7B-Instruct-v0.1,-0.2469090912475104,51.0,True,True
+Transposed EM 1PL,nova-lite,1.7654574526430784,11.0,True,True
+Transposed EM 1PL,nova-pro,1.937913803011387,8.0,True,True
+Transposed EM 1PL,nvidia/Nemotron-Mini-4B-Instruct,-0.6223694886172193,56.0,True,True
+Transposed EM 1PL,swiss-ai/Apertus-70B-Instruct-2509,0.1351069385550134,43.0,True,True
+Transposed EM 1PL,swiss-ai/Apertus-8B-Instruct-2509,-0.5974848432529116,54.0,True,True
+Transposed EM 1PL,tiiuae/Falcon3-10B-Instruct,1.0847752983790828,23.0,True,True
+Transposed EM 1PL,tiiuae/Falcon3-7B-Instruct,0.8108385898579629,29.0,True,True
+Transposed EM 1PL,utter-project/EuroLLM-22B-Instruct-2512,0.4283985287404785,38.0,True,True
+Transposed EM 1PL,utter-project/EuroLLM-9B-Instruct,-0.3964211065081103,52.0,True,True
+Transposed EM 1PL,zai-org/GLM-4-32B-0414,2.229747867070438,1.0,True,True
+Transposed EM 1PL,zai-org/GLM-4-9B-0414,1.3520761856173873,18.0,True,True
+Transposed EM 2PL diagonal,01-ai/Yi-1.5-34B-Chat,0.5356686365657929,28.0,False,False
+Transposed EM 2PL diagonal,01-ai/Yi-1.5-6B-Chat,0.039244109980628,46.0,False,False
+Transposed EM 2PL diagonal,01-ai/Yi-1.5-9B-Chat,0.2656376179871705,32.0,False,False
+Transposed EM 2PL diagonal,01-ai/Yi-34B-Chat,0.04064616022453,44.0,False,False
+Transposed EM 2PL diagonal,01-ai/Yi-6B-Chat,-1.172065819965089,61.0,False,False
+Transposed EM 2PL diagonal,01-ai/Yi-Coder-9B-Chat,-0.9666005294028284,58.0,False,False
+Transposed EM 2PL diagonal,CohereForAI/aya-expanse-32b,0.7952556931130965,22.0,False,False
+Transposed EM 2PL diagonal,CohereForAI/aya-expanse-8b,0.1822574167075364,33.0,False,False
+Transposed EM 2PL diagonal,CohereForAI/c4ai-command-r-plus-08-2024,0.1428835818051491,36.0,False,False
+Transposed EM 2PL diagonal,CohereForAI/c4ai-command-r-v01,-0.4489452390411091,50.0,False,False
+Transposed EM 2PL diagonal,CohereForAI/c4ai-command-r7b-12-2024,0.0540734846385055,43.0,False,False
+Transposed EM 2PL diagonal,Qwen/Qwen1.5-14B-Chat,0.1007775712672371,38.0,False,False
+Transposed EM 2PL diagonal,Qwen/Qwen1.5-32B-Chat,0.5869548016379905,24.0,False,False
+Transposed EM 2PL diagonal,Qwen/Qwen1.5-4B-Chat,-1.090676522980316,60.0,False,False
+Transposed EM 2PL diagonal,Qwen/Qwen1.5-7B-Chat,-0.3852888376894526,48.0,False,False
+Transposed EM 2PL diagonal,Qwen/Qwen2-1.5B-Instruct,-1.0813648294741056,59.0,False,False
+Transposed EM 2PL diagonal,Qwen/Qwen2-72B-Instruct,2.1297741972044753,10.0,False,False
+Transposed EM 2PL diagonal,Qwen/Qwen2-7B-Instruct,0.3226642578683282,30.0,False,False
+Transposed EM 2PL diagonal,Qwen/Qwen2-Math-72B-Instruct,0.9863064026298896,21.0,False,False
+Transposed EM 2PL diagonal,Qwen/Qwen2-Math-7B-Instruct,-0.2631582661695677,47.0,False,False
+Transposed EM 2PL diagonal,Qwen/Qwen2.5-0.5B-Instruct,-1.917616486364252,65.0,False,False
+Transposed EM 2PL diagonal,Qwen/Qwen2.5-1.5B-Instruct,-0.5913784906621897,51.0,False,False
+Transposed EM 2PL diagonal,Qwen/Qwen2.5-32B-Instruct,3.112581101616475,6.0,False,False
+Transposed EM 2PL diagonal,Qwen/Qwen2.5-3B-Instruct,0.1429298953886477,35.0,False,False
+Transposed EM 2PL diagonal,Qwen/Qwen2.5-72B-Instruct,3.1133620072205184,5.0,False,False
+Transposed EM 2PL diagonal,Qwen/Qwen2.5-7B-Instruct,1.074842337342022,20.0,False,False
+Transposed EM 2PL diagonal,Qwen/Qwen2.5-Coder-14B-Instruct,1.3054267514181492,15.0,False,False
+Transposed EM 2PL diagonal,Qwen/Qwen2.5-Coder-32B-Instruct,2.1026758475736735,11.0,False,False
+Transposed EM 2PL diagonal,allenai/OLMo-2-0325-32B-Instruct,0.5357000139294993,27.0,False,False
+Transposed EM 2PL diagonal,allenai/OLMo-2-1124-13B-Instruct,0.1800359679179365,34.0,False,False
+Transposed EM 2PL diagonal,allenai/OLMo-2-1124-7B-Instruct,0.040632656500647,45.0,False,False
+Transposed EM 2PL diagonal,allenai/OLMo-7B-Instruct-hf,-1.87038258455982,64.0,False,False
+Transposed EM 2PL diagonal,claude-3-haiku,0.5491542992621704,26.0,False,False
+Transposed EM 2PL diagonal,claude-3-sonnet,1.154972446275621,17.0,False,False
+Transposed EM 2PL diagonal,claude-3.5-haiku,1.986170894044829,14.0,False,False
+Transposed EM 2PL diagonal,claude-3.5-sonnet,3.1315299088804505,4.0,False,False
+Transposed EM 2PL diagonal,deepseek-ai/deepseek-llm-7b-chat,-1.7119681752875748,63.0,False,False
+Transposed EM 2PL diagonal,gpt-4.1,3.143154609136253,3.0,False,False
+Transposed EM 2PL diagonal,gpt-4.1-mini,3.159535965847984,1.0,False,False
+Transposed EM 2PL diagonal,gpt-4.1-nano,1.211772939366596,16.0,False,False
+Transposed EM 2PL diagonal,gpt-4o,3.015031288557536,9.0,False,False
+Transposed EM 2PL diagonal,gpt-4o-mini,2.0648188679685595,13.0,False,False
+Transposed EM 2PL diagonal,ibm-granite/granite-3.2-2b-instruct,-0.6545051746377121,52.0,False,False
+Transposed EM 2PL diagonal,ibm-granite/granite-3.2-8b-instruct,0.1167660208879275,37.0,False,False
+Transposed EM 2PL diagonal,llama-3.1-70b,3.056814437000102,7.0,False,False
+Transposed EM 2PL diagonal,llama-3.1-8b,0.2917026755091817,31.0,False,False
+Transposed EM 2PL diagonal,llama-3.2-1b,-1.2581927419695111,62.0,False,False
+Transposed EM 2PL diagonal,llama-3.2-3b,0.0790131789613642,41.0,False,False
+Transposed EM 2PL diagonal,microsoft/phi-4,1.147738992033942,18.0,False,False
+Transposed EM 2PL diagonal,mistralai/Codestral-22B-v0.1,-0.6998827538644175,55.0,False,False
+Transposed EM 2PL diagonal,mistralai/Ministral-8B-Instruct-2410,0.0798392579851518,40.0,False,False
+Transposed EM 2PL diagonal,mistralai/Mistral-7B-Instruct-v0.3,-0.6856302724568765,54.0,False,False
+Transposed EM 2PL diagonal,mistralai/Mistral-Small-Instruct-2409,0.5685069513177816,25.0,False,False
+Transposed EM 2PL diagonal,mistralai/Mixtral-8x7B-Instruct-v0.1,-0.4347457249947858,49.0,False,False
+Transposed EM 2PL diagonal,nova-lite,2.0819273448575144,12.0,False,False
+Transposed EM 2PL diagonal,nova-pro,3.0380170065619145,8.0,False,False
+Transposed EM 2PL diagonal,nvidia/Nemotron-Mini-4B-Instruct,-0.7610743397253702,57.0,False,False
+Transposed EM 2PL diagonal,swiss-ai/Apertus-70B-Instruct-2509,0.0584886465351996,42.0,False,False
+Transposed EM 2PL diagonal,swiss-ai/Apertus-8B-Instruct-2509,-0.7432126559960621,56.0,False,False
+Transposed EM 2PL diagonal,tiiuae/Falcon3-10B-Instruct,0.7938438423669931,23.0,False,False
+Transposed EM 2PL diagonal,tiiuae/Falcon3-7B-Instruct,0.4583543790890161,29.0,False,False
+Transposed EM 2PL diagonal,utter-project/EuroLLM-22B-Instruct-2512,0.099657414590636,39.0,False,False
+Transposed EM 2PL diagonal,utter-project/EuroLLM-9B-Instruct,-0.6836076266793345,53.0,False,False
+Transposed EM 2PL diagonal,zai-org/GLM-4-32B-0414,3.1521705021738136,2.0,False,False
+Transposed EM 2PL diagonal,zai-org/GLM-4-9B-0414,1.0925159263038269,19.0,False,False
+Transposed EM 2PL correlated,01-ai/Yi-1.5-34B-Chat,0.9295207945527262,28.0,False,False
+Transposed EM 2PL correlated,01-ai/Yi-1.5-6B-Chat,-0.0604176925894661,45.0,False,False
+Transposed EM 2PL correlated,01-ai/Yi-1.5-9B-Chat,0.597104362783199,32.0,False,False
+Transposed EM 2PL correlated,01-ai/Yi-34B-Chat,-0.0604179977663198,46.0,False,False
+Transposed EM 2PL correlated,01-ai/Yi-6B-Chat,-1.20536347005101,62.0,False,False
+Transposed EM 2PL correlated,01-ai/Yi-Coder-9B-Chat,-0.9704755731838246,58.0,False,False
+Transposed EM 2PL correlated,CohereForAI/aya-expanse-32b,1.1309926018103222,22.0,False,False
+Transposed EM 2PL correlated,CohereForAI/aya-expanse-8b,0.4590518320344332,33.0,False,False
+Transposed EM 2PL correlated,CohereForAI/c4ai-command-r-plus-08-2024,0.3970839679244278,36.0,False,False
+Transposed EM 2PL correlated,CohereForAI/c4ai-command-r-v01,-0.2662721427065682,49.0,False,False
+Transposed EM 2PL correlated,CohereForAI/c4ai-command-r7b-12-2024,-0.0313226260387535,44.0,False,False
+Transposed EM 2PL correlated,Qwen/Qwen1.5-14B-Chat,0.2955325785024293,39.0,False,False
+Transposed EM 2PL correlated,Qwen/Qwen1.5-32B-Chat,1.001601688120919,24.0,False,False
+Transposed EM 2PL correlated,Qwen/Qwen1.5-4B-Chat,-1.0326238698181642,59.0,False,False
+Transposed EM 2PL correlated,Qwen/Qwen1.5-7B-Chat,-0.2101619104443483,48.0,False,False
+Transposed EM 2PL correlated,Qwen/Qwen2-1.5B-Instruct,-1.0500867079880476,60.0,False,False
+Transposed EM 2PL correlated,Qwen/Qwen2-72B-Instruct,1.6625131599704512,12.0,False,False
+Transposed EM 2PL correlated,Qwen/Qwen2-7B-Instruct,0.6827045649134142,30.0,False,False
+Transposed EM 2PL correlated,Qwen/Qwen2-Math-72B-Instruct,1.18742541023897,21.0,False,False
+Transposed EM 2PL correlated,Qwen/Qwen2-Math-7B-Instruct,-0.180046423187139,47.0,False,False
+Transposed EM 2PL correlated,Qwen/Qwen2.5-0.5B-Instruct,-1.45400943293234,64.0,False,False
+Transposed EM 2PL correlated,Qwen/Qwen2.5-1.5B-Instruct,-0.3803231058164021,51.0,False,False
+Transposed EM 2PL correlated,Qwen/Qwen2.5-32B-Instruct,2.2435173135925033,5.0,False,False
+Transposed EM 2PL correlated,Qwen/Qwen2.5-3B-Instruct,0.4361844075387107,34.0,False,False
+Transposed EM 2PL correlated,Qwen/Qwen2.5-72B-Instruct,2.243508784525224,6.0,False,False
+Transposed EM 2PL correlated,Qwen/Qwen2.5-7B-Instruct,1.2198079321370616,20.0,False,False
+Transposed EM 2PL correlated,Qwen/Qwen2.5-Coder-14B-Instruct,1.3615331252232072,15.0,False,False
+Transposed EM 2PL correlated,Qwen/Qwen2.5-Coder-32B-Instruct,1.7375929527967824,10.0,False,False
+Transposed EM 2PL correlated,allenai/OLMo-2-0325-32B-Instruct,0.9707040172685332,26.0,False,False
+Transposed EM 2PL correlated,allenai/OLMo-2-1124-13B-Instruct,0.4043177984369496,35.0,False,False
+Transposed EM 2PL correlated,allenai/OLMo-2-1124-7B-Instruct,-0.0148365078513061,43.0,False,False
+Transposed EM 2PL correlated,allenai/OLMo-7B-Instruct-hf,-1.5834374651643766,65.0,False,False
+Transposed EM 2PL correlated,claude-3-haiku,0.9296267278652102,27.0,False,False
+Transposed EM 2PL correlated,claude-3-sonnet,1.2504716775973368,18.0,False,False
+Transposed EM 2PL correlated,claude-3.5-haiku,1.420527834984854,14.0,False,False
+Transposed EM 2PL correlated,claude-3.5-sonnet,2.382164355338598,4.0,False,False
+Transposed EM 2PL correlated,deepseek-ai/deepseek-llm-7b-chat,-1.4084488049029384,63.0,False,False
+Transposed EM 2PL correlated,gpt-4.1,2.48559165488843,2.0,False,False
+Transposed EM 2PL correlated,gpt-4.1-mini,2.555741238045964,1.0,False,False
+Transposed EM 2PL correlated,gpt-4.1-nano,1.3413826112762963,16.0,False,False
+Transposed EM 2PL correlated,gpt-4o,1.9466776170941744,9.0,False,False
+Transposed EM 2PL correlated,gpt-4o-mini,1.5760880429423936,13.0,False,False
+Transposed EM 2PL correlated,ibm-granite/granite-3.2-2b-instruct,-0.4412620317806237,52.0,False,False
+Transposed EM 2PL correlated,ibm-granite/granite-3.2-8b-instruct,0.3010599279948688,38.0,False,False
+Transposed EM 2PL correlated,llama-3.1-70b,2.167910501943019,7.0,False,False
+Transposed EM 2PL correlated,llama-3.1-8b,0.6139593960286724,31.0,False,False
+Transposed EM 2PL correlated,llama-3.2-1b,-1.1176837608751298,61.0,False,False
+Transposed EM 2PL correlated,llama-3.2-3b,0.0971209389815372,41.0,False,False
+Transposed EM 2PL correlated,microsoft/phi-4,1.2915320759842344,17.0,False,False
+Transposed EM 2PL correlated,mistralai/Codestral-22B-v0.1,-0.775863800655854,55.0,False,False
+Transposed EM 2PL correlated,mistralai/Ministral-8B-Instruct-2410,0.097122770242562,40.0,False,False
+Transposed EM 2PL correlated,mistralai/Mistral-7B-Instruct-v0.3,-0.7052789139875427,54.0,False,False
+Transposed EM 2PL correlated,mistralai/Mistral-Small-Instruct-2409,0.9742650541759408,25.0,False,False
+Transposed EM 2PL correlated,mistralai/Mixtral-8x7B-Instruct-v0.1,-0.2747218749685949,50.0,False,False
+Transposed EM 2PL correlated,nova-lite,1.6736545349827183,11.0,False,False
+Transposed EM 2PL correlated,nova-pro,2.025199918787879,8.0,False,False
+Transposed EM 2PL correlated,nvidia/Nemotron-Mini-4B-Instruct,-0.880012236869865,57.0,False,False
+Transposed EM 2PL correlated,swiss-ai/Apertus-70B-Instruct-2509,-0.0148199935087388,42.0,False,False
+Transposed EM 2PL correlated,swiss-ai/Apertus-8B-Instruct-2509,-0.7995511109170995,56.0,False,False
+Transposed EM 2PL correlated,tiiuae/Falcon3-10B-Instruct,1.0700774797973305,23.0,False,False
+Transposed EM 2PL correlated,tiiuae/Falcon3-7B-Instruct,0.8370725095381499,29.0,False,False
+Transposed EM 2PL correlated,utter-project/EuroLLM-22B-Instruct-2512,0.3059571313118626,37.0,False,False
+Transposed EM 2PL correlated,utter-project/EuroLLM-9B-Instruct,-0.5965083977981029,53.0,False,False
+Transposed EM 2PL correlated,zai-org/GLM-4-32B-0414,2.4657623118582572,3.0,False,False
+Transposed EM 2PL correlated,zai-org/GLM-4-9B-0414,1.2448296996323485,19.0,False,False
+torch_measure 1PL,01-ai/Yi-1.5-34B-Chat,0.8394968567751692,27.0,True,False
+torch_measure 1PL,01-ai/Yi-1.5-6B-Chat,0.04917120677516907,46.0,True,False
+torch_measure 1PL,01-ai/Yi-1.5-9B-Chat,0.5447208067751691,33.0,True,False
+torch_measure 1PL,01-ai/Yi-34B-Chat,0.08268603677516907,45.0,True,False
+torch_measure 1PL,01-ai/Yi-6B-Chat,-0.9391988432248308,62.0,True,False
+torch_measure 1PL,01-ai/Yi-Coder-9B-Chat,-0.6912224932248309,59.0,True,False
+torch_measure 1PL,CohereForAI/aya-expanse-32b,1.2001355067751691,21.0,True,False
+torch_measure 1PL,CohereForAI/aya-expanse-8b,0.6051740067751691,31.0,True,False
+torch_measure 1PL,CohereForAI/c4ai-command-r-plus-08-2024,0.46193812677516904,36.0,True,False
+torch_measure 1PL,CohereForAI/c4ai-command-r-v01,-0.18996049322483094,49.0,True,False
+torch_measure 1PL,CohereForAI/c4ai-command-r7b-12-2024,0.11556011677516907,44.0,True,False
+torch_measure 1PL,Qwen/Qwen1.5-14B-Chat,0.42783550677516907,37.0,True,False
+torch_measure 1PL,Qwen/Qwen1.5-32B-Chat,0.9923107067751691,24.0,True,False
+torch_measure 1PL,Qwen/Qwen1.5-4B-Chat,-0.6906163932248309,58.0,True,False
+torch_measure 1PL,Qwen/Qwen1.5-7B-Chat,0.014973543775169074,47.0,True,False
+torch_measure 1PL,Qwen/Qwen2-1.5B-Instruct,-0.7340256932248309,60.0,True,False
+torch_measure 1PL,Qwen/Qwen2-72B-Instruct,1.640132106775169,10.0,True,False
+torch_measure 1PL,Qwen/Qwen2-7B-Instruct,0.6890897067751691,30.0,True,False
+torch_measure 1PL,Qwen/Qwen2-Math-72B-Instruct,1.1079464067751692,22.0,True,False
+torch_measure 1PL,Qwen/Qwen2-Math-7B-Instruct,-0.07105959822483093,48.0,True,False
+torch_measure 1PL,Qwen/Qwen2.5-0.5B-Instruct,-1.0942365932248308,63.0,True,False
+torch_measure 1PL,Qwen/Qwen2.5-1.5B-Instruct,-0.22462631322483093,50.0,True,False
+torch_measure 1PL,Qwen/Qwen2.5-32B-Instruct,1.8888111067751692,6.0,True,False
+torch_measure 1PL,Qwen/Qwen2.5-3B-Instruct,0.48420075677516905,35.0,True,False
+torch_measure 1PL,Qwen/Qwen2.5-72B-Instruct,1.9071241067751692,5.0,True,False
+torch_measure 1PL,Qwen/Qwen2.5-7B-Instruct,1.2720180067751692,16.0,True,False
+torch_measure 1PL,Qwen/Qwen2.5-Coder-14B-Instruct,1.3081290067751692,15.0,True,False
+torch_measure 1PL,Qwen/Qwen2.5-Coder-32B-Instruct,1.5516354067751692,12.0,True,False
+torch_measure 1PL,allenai/OLMo-2-0325-32B-Instruct,0.9473175467751691,25.0,True,False
+torch_measure 1PL,allenai/OLMo-2-1124-13B-Instruct,0.48754130677516905,34.0,True,False
+torch_measure 1PL,allenai/OLMo-2-1124-7B-Instruct,0.17450054677516907,42.0,True,False
+torch_measure 1PL,allenai/OLMo-7B-Instruct-hf,-1.291601393224831,65.0,True,False
+torch_measure 1PL,claude-3-haiku,0.8232168667751691,28.0,True,False
+torch_measure 1PL,claude-3-sonnet,1.207593406775169,20.0,True,False
+torch_measure 1PL,claude-3.5-haiku,1.435418506775169,14.0,True,False
+torch_measure 1PL,claude-3.5-sonnet,1.9595480067751692,4.0,True,False
+torch_measure 1PL,deepseek-ai/deepseek-llm-7b-chat,-1.127330093224831,64.0,True,False
+torch_measure 1PL,gpt-4.1,1.978962106775169,3.0,True,False
+torch_measure 1PL,gpt-4.1-mini,2.003672706775169,2.0,True,False
+torch_measure 1PL,gpt-4.1-nano,1.269378506775169,17.0,True,False
+torch_measure 1PL,gpt-4o,1.6638387067751692,9.0,True,False
+torch_measure 1PL,gpt-4o-mini,1.508379806775169,13.0,True,False
+torch_measure 1PL,ibm-granite/granite-3.2-2b-instruct,-0.3801556732248309,53.0,True,False
+torch_measure 1PL,ibm-granite/granite-3.2-8b-instruct,0.37309465677516906,39.0,True,False
+torch_measure 1PL,llama-3.1-70b,1.8367348067751692,7.0,True,False
+torch_measure 1PL,llama-3.1-8b,0.5803886067751691,32.0,True,False
+torch_measure 1PL,llama-3.2-1b,-0.8028694332248308,61.0,True,False
+torch_measure 1PL,llama-3.2-3b,0.24164210677516906,41.0,True,False
+torch_measure 1PL,microsoft/phi-4,1.217342506775169,19.0,True,False
+torch_measure 1PL,mistralai/Codestral-22B-v0.1,-0.5797321932248308,57.0,True,False
+torch_measure 1PL,mistralai/Ministral-8B-Instruct-2410,0.24819744677516908,40.0,True,False
+torch_measure 1PL,mistralai/Mistral-7B-Instruct-v0.3,-0.5641013932248309,55.0,True,False
+torch_measure 1PL,mistralai/Mistral-Small-Instruct-2409,0.8555527067751691,26.0,True,False
+torch_measure 1PL,mistralai/Mixtral-8x7B-Instruct-v0.1,-0.22956309322483093,51.0,True,False
+torch_measure 1PL,nova-lite,1.615823706775169,11.0,True,False
+torch_measure 1PL,nova-pro,1.7770920067751692,8.0,True,False
+torch_measure 1PL,nvidia/Nemotron-Mini-4B-Instruct,-0.5717542932248308,56.0,True,False
+torch_measure 1PL,swiss-ai/Apertus-70B-Instruct-2509,0.12341234677516907,43.0,True,False
+torch_measure 1PL,swiss-ai/Apertus-8B-Instruct-2509,-0.5490861432248308,54.0,True,False
+torch_measure 1PL,tiiuae/Falcon3-10B-Instruct,0.9962750067751691,23.0,True,False
+torch_measure 1PL,tiiuae/Falcon3-7B-Instruct,0.7452602467751691,29.0,True,False
+torch_measure 1PL,utter-project/EuroLLM-22B-Instruct-2512,0.39113686677516907,38.0,True,False
+torch_measure 1PL,utter-project/EuroLLM-9B-Instruct,-0.3658181632248309,52.0,True,False
+torch_measure 1PL,zai-org/GLM-4-32B-0414,2.0364288067751692,1.0,True,False
+torch_measure 1PL,zai-org/GLM-4-9B-0414,1.245199806775169,18.0,True,False
+torch_measure 2PL,01-ai/Yi-1.5-34B-Chat,0.704147334862904,28.0,True,True
+torch_measure 2PL,01-ai/Yi-1.5-6B-Chat,-0.20246598159928272,45.0,True,True
+torch_measure 2PL,01-ai/Yi-1.5-9B-Chat,0.37127901550989234,31.0,True,True
+torch_measure 2PL,01-ai/Yi-34B-Chat,-0.21686451378626675,46.0,True,True
+torch_measure 2PL,01-ai/Yi-6B-Chat,-1.264324516762444,62.0,True,True
+torch_measure 2PL,01-ai/Yi-Coder-9B-Chat,-1.0323989172801469,58.0,True,True
+torch_measure 2PL,CohereForAI/aya-expanse-32b,0.9529196123544001,22.0,True,True
+torch_measure 2PL,CohereForAI/aya-expanse-8b,0.2412660715940265,34.0,True,True
+torch_measure 2PL,CohereForAI/c4ai-command-r-plus-08-2024,0.22252151129593523,35.0,True,True
+torch_measure 2PL,CohereForAI/c4ai-command-r-v01,-0.5158581700667122,50.0,True,True
+torch_measure 2PL,CohereForAI/c4ai-command-r7b-12-2024,-0.151308846998464,43.0,True,True
+torch_measure 2PL,Qwen/Qwen1.5-14B-Chat,0.12625825268524646,39.0,True,True
+torch_measure 2PL,Qwen/Qwen1.5-32B-Chat,0.7683274708755483,24.0,True,True
+torch_measure 2PL,Qwen/Qwen1.5-4B-Chat,-1.1251025621794826,59.0,True,True
+torch_measure 2PL,Qwen/Qwen1.5-7B-Chat,-0.3774199546323781,48.0,True,True
+torch_measure 2PL,Qwen/Qwen2-1.5B-Instruct,-1.135181064387719,60.0,True,True
+torch_measure 2PL,Qwen/Qwen2-72B-Instruct,1.7938740238782533,11.0,True,True
+torch_measure 2PL,Qwen/Qwen2-7B-Instruct,0.41708699828860374,30.0,True,True
+torch_measure 2PL,Qwen/Qwen2-Math-72B-Instruct,1.114275719307965,21.0,True,True
+torch_measure 2PL,Qwen/Qwen2-Math-7B-Instruct,-0.3283249287460163,47.0,True,True
+torch_measure 2PL,Qwen/Qwen2.5-0.5B-Instruct,-1.5698470430903213,64.0,True,True
+torch_measure 2PL,Qwen/Qwen2.5-1.5B-Instruct,-0.6166885945833426,51.0,True,True
+torch_measure 2PL,Qwen/Qwen2.5-32B-Instruct,2.2470490848998748,6.0,True,True
+torch_measure 2PL,Qwen/Qwen2.5-3B-Instruct,0.2528553805482341,33.0,True,True
+torch_measure 2PL,Qwen/Qwen2.5-72B-Instruct,2.255564998303777,5.0,True,True
+torch_measure 2PL,Qwen/Qwen2.5-7B-Instruct,1.205108411382753,20.0,True,True
+torch_measure 2PL,Qwen/Qwen2.5-Coder-14B-Instruct,1.3962185496081125,15.0,True,True
+torch_measure 2PL,Qwen/Qwen2.5-Coder-32B-Instruct,1.7959006022774848,10.0,True,True
+torch_measure 2PL,allenai/OLMo-2-0325-32B-Instruct,0.7191295328048506,27.0,True,True
+torch_measure 2PL,allenai/OLMo-2-1124-13B-Instruct,0.21499917079352712,36.0,True,True
+torch_measure 2PL,allenai/OLMo-2-1124-7B-Instruct,-0.17999224230367009,44.0,True,True
+torch_measure 2PL,allenai/OLMo-7B-Instruct-hf,-1.6481984430023244,65.0,True,True
+torch_measure 2PL,claude-3-haiku,0.7217574722667583,26.0,True,True
+torch_measure 2PL,claude-3-sonnet,1.2651541784478477,18.0,True,True
+torch_measure 2PL,claude-3.5-haiku,1.6466232192362138,14.0,True,True
+torch_measure 2PL,claude-3.5-sonnet,2.413897116868838,4.0,True,True
+torch_measure 2PL,deepseek-ai/deepseek-llm-7b-chat,-1.4889816987513673,63.0,True,True
+torch_measure 2PL,gpt-4.1,2.6051393878195612,2.0,True,True
+torch_measure 2PL,gpt-4.1-mini,2.7021245754033667,1.0,True,True
+torch_measure 2PL,gpt-4.1-nano,1.3593801786097677,16.0,True,True
+torch_measure 2PL,gpt-4o,1.9065396988430148,9.0,True,True
+torch_measure 2PL,gpt-4o-mini,1.7004205403145423,13.0,True,True
+torch_measure 2PL,ibm-granite/granite-3.2-2b-instruct,-0.7091238063213186,52.0,True,True
+torch_measure 2PL,ibm-granite/granite-3.2-8b-instruct,0.14883694611057205,37.0,True,True
+torch_measure 2PL,llama-3.1-70b,2.149432826763073,7.0,True,True
+torch_measure 2PL,llama-3.1-8b,0.3705076863599643,32.0,True,True
+torch_measure 2PL,llama-3.2-1b,-1.1878826501024649,61.0,True,True
+torch_measure 2PL,llama-3.2-3b,-0.010808277676527991,40.0,True,True
+torch_measure 2PL,microsoft/phi-4,1.2993256570240148,17.0,True,True
+torch_measure 2PL,mistralai/Codestral-22B-v0.1,-0.8156010363624433,54.0,True,True
+torch_measure 2PL,mistralai/Ministral-8B-Instruct-2410,-0.012545583895570754,41.0,True,True
+torch_measure 2PL,mistralai/Mistral-7B-Instruct-v0.3,-0.8565905402840668,55.0,True,True
+torch_measure 2PL,mistralai/Mistral-Small-Instruct-2409,0.7641489102253133,25.0,True,True
+torch_measure 2PL,mistralai/Mixtral-8x7B-Instruct-v0.1,-0.46384698075240305,49.0,True,True
+torch_measure 2PL,nova-lite,1.719906473469266,12.0,True,True
+torch_measure 2PL,nova-pro,2.008957555444677,8.0,True,True
+torch_measure 2PL,nvidia/Nemotron-Mini-4B-Instruct,-0.9637669212462866,57.0,True,True
+torch_measure 2PL,swiss-ai/Apertus-70B-Instruct-2509,-0.14199216504058937,42.0,True,True
+torch_measure 2PL,swiss-ai/Apertus-8B-Instruct-2509,-0.9075757044338661,56.0,True,True
+torch_measure 2PL,tiiuae/Falcon3-10B-Instruct,0.915371892349725,23.0,True,True
+torch_measure 2PL,tiiuae/Falcon3-7B-Instruct,0.5921108910704687,29.0,True,True
+torch_measure 2PL,utter-project/EuroLLM-22B-Instruct-2512,0.1467443735268877,38.0,True,True
+torch_measure 2PL,utter-project/EuroLLM-9B-Instruct,-0.7503817666876011,53.0,True,True
+torch_measure 2PL,zai-org/GLM-4-32B-0414,2.51129628151995,3.0,True,True
+torch_measure 2PL,zai-org/GLM-4-9B-0414,1.2400212535022324,19.0,True,True
+py-irt 1PL,01-ai/Yi-1.5-34B-Chat,10.056748354131742,27.0,True,False
+py-irt 1PL,01-ai/Yi-1.5-6B-Chat,2.48167022436337,46.0,True,False
+py-irt 1PL,01-ai/Yi-1.5-9B-Chat,9.295537912542386,33.0,True,False
+py-irt 1PL,01-ai/Yi-34B-Chat,3.485096656972928,45.0,True,False
+py-irt 1PL,01-ai/Yi-6B-Chat,-7.820454633539157,62.0,True,False
+py-irt 1PL,01-ai/Yi-Coder-9B-Chat,-7.398049390619235,58.0,True,False
+py-irt 1PL,CohereForAI/aya-expanse-32b,10.427144014532132,21.0,True,False
+py-irt 1PL,CohereForAI/aya-expanse-8b,9.51862045496182,31.0,True,False
+py-irt 1PL,CohereForAI/c4ai-command-r-plus-08-2024,8.885498010808988,36.0,True,False
+py-irt 1PL,CohereForAI/c4ai-command-r-v01,-2.60950044423862,49.0,True,False
+py-irt 1PL,CohereForAI/c4ai-command-r7b-12-2024,4.34858175485806,43.0,True,False
+py-irt 1PL,Qwen/Qwen1.5-14B-Chat,8.701671564275784,37.0,True,False
+py-irt 1PL,Qwen/Qwen1.5-32B-Chat,10.244781458074613,24.0,True,False
+py-irt 1PL,Qwen/Qwen1.5-4B-Chat,-7.404624975030856,59.0,True,False
+py-irt 1PL,Qwen/Qwen1.5-7B-Chat,1.6198710438557098,47.0,True,False
+py-irt 1PL,Qwen/Qwen2-1.5B-Instruct,-7.516144788568454,60.0,True,False
+py-irt 1PL,Qwen/Qwen2-72B-Instruct,10.64884849756436,10.0,True,False
+py-irt 1PL,Qwen/Qwen2-7B-Instruct,9.774079286748929,30.0,True,False
+py-irt 1PL,Qwen/Qwen2-Math-72B-Instruct,10.367044412786528,22.0,True,False
+py-irt 1PL,Qwen/Qwen2-Math-7B-Instruct,-0.14102247983737493,48.0,True,False
+py-irt 1PL,Qwen/Qwen2.5-0.5B-Instruct,-7.959135091608005,63.0,True,False
+py-irt 1PL,Qwen/Qwen2.5-1.5B-Instruct,-3.384788072412448,50.0,True,False
+py-irt 1PL,Qwen/Qwen2.5-32B-Instruct,10.723540270025296,6.0,True,False
+py-irt 1PL,Qwen/Qwen2.5-3B-Instruct,9.009097540075345,35.0,True,False
+py-irt 1PL,Qwen/Qwen2.5-72B-Instruct,10.73078628748135,5.0,True,False
+py-irt 1PL,Qwen/Qwen2.5-7B-Instruct,10.481925928289456,17.0,True,False
+py-irt 1PL,Qwen/Qwen2.5-Coder-14B-Instruct,10.504149400884671,15.0,True,False
+py-irt 1PL,Qwen/Qwen2.5-Coder-32B-Instruct,10.621466600591702,12.0,True,False
+py-irt 1PL,allenai/OLMo-2-0325-32B-Instruct,10.220116579229398,25.0,True,False
+py-irt 1PL,allenai/OLMo-2-1124-13B-Instruct,9.040275537664456,34.0,True,False
+py-irt 1PL,allenai/OLMo-2-1124-7B-Instruct,5.547657453710599,42.0,True,False
+py-irt 1PL,allenai/OLMo-7B-Instruct-hf,-8.07478717595859,65.0,True,False
+py-irt 1PL,claude-3-haiku,10.038454973394437,28.0,True,False
+py-irt 1PL,claude-3-sonnet,10.431959116155667,20.0,True,False
+py-irt 1PL,claude-3.5-haiku,10.567392313177152,14.0,True,False
+py-irt 1PL,claude-3.5-sonnet,10.742317163641019,4.0,True,False
+py-irt 1PL,deepseek-ai/deepseek-llm-7b-chat,-7.99328902990146,64.0,True,False
+py-irt 1PL,gpt-4.1,10.74381347864346,3.0,True,False
+py-irt 1PL,gpt-4.1-mini,10.754849397832913,2.0,True,False
+py-irt 1PL,gpt-4.1-nano,10.48210045068936,16.0,True,False
+py-irt 1PL,gpt-4o,10.66629406183438,9.0,True,False
+py-irt 1PL,gpt-4o-mini,10.602675401861234,13.0,True,False
+py-irt 1PL,ibm-granite/granite-3.2-2b-instruct,-5.821078336542087,53.0,True,False
+py-irt 1PL,ibm-granite/granite-3.2-8b-instruct,8.296515428716702,39.0,True,False
+py-irt 1PL,llama-3.1-70b,10.71251865595059,7.0,True,False
+py-irt 1PL,llama-3.1-8b,9.422088586980863,32.0,True,False
+py-irt 1PL,llama-3.2-1b,-7.631653821771579,61.0,True,False
+py-irt 1PL,llama-3.2-3b,6.711113893682523,41.0,True,False
+py-irt 1PL,microsoft/phi-4,10.458303415472074,19.0,True,False
+py-irt 1PL,mistralai/Codestral-22B-v0.1,-7.091746366327243,57.0,True,False
+py-irt 1PL,mistralai/Ministral-8B-Instruct-2410,6.73499532907681,40.0,True,False
+py-irt 1PL,mistralai/Mistral-7B-Instruct-v0.3,-7.015153920953708,55.0,True,False
+py-irt 1PL,mistralai/Mistral-Small-Instruct-2409,10.085384332830472,26.0,True,False
+py-irt 1PL,mistralai/Mixtral-8x7B-Instruct-v0.1,-3.4507327440433073,51.0,True,False
+py-irt 1PL,nova-lite,10.64538761347012,11.0,True,False
+py-irt 1PL,nova-pro,10.690500223333402,8.0,True,False
+py-irt 1PL,nvidia/Nemotron-Mini-4B-Instruct,-7.0340671899966765,56.0,True,False
+py-irt 1PL,swiss-ai/Apertus-70B-Instruct-2509,4.348516428167386,44.0,True,False
+py-irt 1PL,swiss-ai/Apertus-8B-Instruct-2509,-6.953862226312594,54.0,True,False
+py-irt 1PL,tiiuae/Falcon3-10B-Instruct,10.263031923467679,23.0,True,False
+py-irt 1PL,tiiuae/Falcon3-7B-Instruct,9.886939012701077,29.0,True,False
+py-irt 1PL,utter-project/EuroLLM-22B-Instruct-2512,8.391711198980374,38.0,True,False
+py-irt 1PL,utter-project/EuroLLM-9B-Instruct,-5.620970285242038,52.0,True,False
+py-irt 1PL,zai-org/GLM-4-32B-0414,10.761603319341702,1.0,True,False
+py-irt 1PL,zai-org/GLM-4-9B-0414,10.47045608728604,18.0,True,False
+py-irt 2PL,01-ai/Yi-1.5-34B-Chat,0.8811411174877438,27.0,True,True
+py-irt 2PL,01-ai/Yi-1.5-6B-Chat,0.18383095976963237,46.0,True,True
+py-irt 2PL,01-ai/Yi-1.5-9B-Chat,0.6221825425402954,33.0,True,True
+py-irt 2PL,01-ai/Yi-34B-Chat,0.2065648895104419,45.0,True,True
+py-irt 2PL,01-ai/Yi-6B-Chat,-0.7151510998714122,62.0,True,True
+py-irt 2PL,01-ai/Yi-Coder-9B-Chat,-0.49363551812885775,58.0,True,True
+py-irt 2PL,CohereForAI/aya-expanse-32b,1.1976707329815333,21.0,True,True
+py-irt 2PL,CohereForAI/aya-expanse-8b,0.6659902690843225,31.0,True,True
+py-irt 2PL,CohereForAI/c4ai-command-r-plus-08-2024,0.5456088645100896,36.0,True,True
+py-irt 2PL,CohereForAI/c4ai-command-r-v01,-0.03638105263627602,49.0,True,True
+py-irt 2PL,CohereForAI/c4ai-command-r7b-12-2024,0.23590385795713556,44.0,True,True
+py-irt 2PL,Qwen/Qwen1.5-14B-Chat,0.5304470928176673,37.0,True,True
+py-irt 2PL,Qwen/Qwen1.5-32B-Chat,1.0252007730794583,24.0,True,True
+py-irt 2PL,Qwen/Qwen1.5-4B-Chat,-0.49501837157437206,59.0,True,True
+py-irt 2PL,Qwen/Qwen1.5-7B-Chat,0.1506734872074358,47.0,True,True
+py-irt 2PL,Qwen/Qwen2-1.5B-Instruct,-0.5302464083787969,60.0,True,True
+py-irt 2PL,Qwen/Qwen2-72B-Instruct,1.6314160485394709,10.0,True,True
+py-irt 2PL,Qwen/Qwen2-7B-Instruct,0.7520442926938112,30.0,True,True
+py-irt 2PL,Qwen/Qwen2-Math-72B-Instruct,1.1263007267011615,22.0,True,True
+py-irt 2PL,Qwen/Qwen2-Math-7B-Instruct,0.06284190871978361,48.0,True,True
+py-irt 2PL,Qwen/Qwen2.5-0.5B-Instruct,-0.8838740310325871,63.0,True,True
+py-irt 2PL,Qwen/Qwen2.5-1.5B-Instruct,-0.07161264667951094,51.0,True,True
+py-irt 2PL,Qwen/Qwen2.5-32B-Instruct,1.8799000494961349,6.0,True,True
+py-irt 2PL,Qwen/Qwen2.5-3B-Instruct,0.5681409176424455,35.0,True,True
+py-irt 2PL,Qwen/Qwen2.5-72B-Instruct,1.9032243221921776,5.0,True,True
+py-irt 2PL,Qwen/Qwen2.5-7B-Instruct,1.267068362745195,16.0,True,True
+py-irt 2PL,Qwen/Qwen2.5-Coder-14B-Instruct,1.3235450432359095,15.0,True,True
+py-irt 2PL,Qwen/Qwen2.5-Coder-32B-Instruct,1.5412615997208314,12.0,True,True
+py-irt 2PL,allenai/OLMo-2-0325-32B-Instruct,0.9749856792263223,25.0,True,True
+py-irt 2PL,allenai/OLMo-2-1124-13B-Instruct,0.5807340719874258,34.0,True,True
+py-irt 2PL,allenai/OLMo-2-1124-7B-Instruct,0.2831503368437739,42.0,True,True
+py-irt 2PL,allenai/OLMo-7B-Instruct-hf,-1.064699085343596,65.0,True,True
+py-irt 2PL,claude-3-haiku,0.8766893058486293,28.0,True,True
+py-irt 2PL,claude-3-sonnet,1.2327231559145926,19.0,True,True
+py-irt 2PL,claude-3.5-haiku,1.4427475074592406,14.0,True,True
+py-irt 2PL,claude-3.5-sonnet,1.9282131181725966,4.0,True,True
+py-irt 2PL,deepseek-ai/deepseek-llm-7b-chat,-0.9034368873452568,64.0,True,True
+py-irt 2PL,gpt-4.1,1.9407312134562915,3.0,True,True
+py-irt 2PL,gpt-4.1-mini,1.9665020201217305,2.0,True,True
+py-irt 2PL,gpt-4.1-nano,1.2663251775365554,17.0,True,True
+py-irt 2PL,gpt-4o,1.6338605724705801,9.0,True,True
+py-irt 2PL,gpt-4o-mini,1.495302814835555,13.0,True,True
+py-irt 2PL,ibm-granite/granite-3.2-2b-instruct,-0.19596904081704822,53.0,True,True
+py-irt 2PL,ibm-granite/granite-3.2-8b-instruct,0.477213767789798,39.0,True,True
+py-irt 2PL,llama-3.1-70b,1.8108150335818012,7.0,True,True
+py-irt 2PL,llama-3.1-8b,0.6495164713481204,32.0,True,True
+py-irt 2PL,llama-3.2-1b,-0.6131429792143255,61.0,True,True
+py-irt 2PL,llama-3.2-3b,0.3424222400508848,41.0,True,True
+py-irt 2PL,microsoft/phi-4,1.225180328556468,20.0,True,True
+py-irt 2PL,mistralai/Codestral-22B-v0.1,-0.3851928681979191,56.0,True,True
+py-irt 2PL,mistralai/Ministral-8B-Instruct-2410,0.34989572108811773,40.0,True,True
+py-irt 2PL,mistralai/Mistral-7B-Instruct-v0.3,-0.35953211112867756,54.0,True,True
+py-irt 2PL,mistralai/Mistral-Small-Instruct-2409,0.9013630547754778,26.0,True,True
+py-irt 2PL,mistralai/Mixtral-8x7B-Instruct-v0.1,-0.0669016789527392,50.0,True,True
+py-irt 2PL,nova-lite,1.6151689090679677,11.0,True,True
+py-irt 2PL,nova-pro,1.7441502095561587,8.0,True,True
+py-irt 2PL,nvidia/Nemotron-Mini-4B-Instruct,-0.39152247876277907,57.0,True,True
+py-irt 2PL,swiss-ai/Apertus-70B-Instruct-2509,0.2509802030223725,43.0,True,True
+py-irt 2PL,swiss-ai/Apertus-8B-Instruct-2509,-0.36127523748921303,55.0,True,True
+py-irt 2PL,tiiuae/Falcon3-10B-Instruct,1.0294750666004098,23.0,True,True
+py-irt 2PL,tiiuae/Falcon3-7B-Instruct,0.8050293779932713,29.0,True,True
+py-irt 2PL,utter-project/EuroLLM-22B-Instruct-2512,0.4872541206149082,38.0,True,True
+py-irt 2PL,utter-project/EuroLLM-9B-Instruct,-0.18977497559718048,52.0,True,True
+py-irt 2PL,zai-org/GLM-4-32B-0414,1.9995834418274345,1.0,True,True
+py-irt 2PL,zai-org/GLM-4-9B-0414,1.2353114504789464,18.0,True,True

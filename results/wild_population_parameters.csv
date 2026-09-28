@@ -1,0 +1,21 @@
+candidate,parameter,estimate,admissible,selected
+Transposed EM 1PL,mean_b,0.0,True,True
+Transposed EM 1PL,sd_b,1.8128463522762324,True,True
+Transposed EM 1PL,variance_b,3.2864118969612415,True,True
+Transposed EM 1PL,corr_b_log_a,,True,True
+Transposed EM 2PL diagonal,mean_b,0.0,False,False
+Transposed EM 2PL diagonal,sd_b,3.6329009041996985,False,False
+Transposed EM 2PL diagonal,variance_b,13.197968979734986,False,False
+Transposed EM 2PL diagonal,mean_log_a,-3.669118805275628e-15,False,False
+Transposed EM 2PL diagonal,sd_log_a,2.4132736971251325,False,False
+Transposed EM 2PL diagonal,variance_log_a,5.823889937236006,False,False
+Transposed EM 2PL diagonal,cov_b_log_a,0.0,False,False
+Transposed EM 2PL diagonal,corr_b_log_a,0.0,False,False
+Transposed EM 2PL correlated,mean_b,0.0,False,False
+Transposed EM 2PL correlated,sd_b,2.3970148970208105,False,False
+Transposed EM 2PL correlated,variance_b,5.745680416539686,False,False
+Transposed EM 2PL correlated,mean_log_a,-4.1507711345976664e-16,False,False
+Transposed EM 2PL correlated,sd_log_a,1.1015054077417987,False,False
+Transposed EM 2PL correlated,variance_log_a,1.2133141632844264,False,False
+Transposed EM 2PL correlated,cov_b_log_a,-0.4005447974175313,False,False
+Transposed EM 2PL correlated,corr_b_log_a,-0.1517028460172235,False,False

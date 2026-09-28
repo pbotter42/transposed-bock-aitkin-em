@@ -1,0 +1,12 @@
+model,framework,outcome,count
+1pl,py_irt,iteration_limit,400
+1pl,torch_measure,rule_converged,400
+1pl,transposed_em_correlated,unavailable,400
+1pl,transposed_em_diagonal,rule_converged,400
+2pl,py_irt,iteration_limit,1200
+2pl,torch_measure,failed,9
+2pl,torch_measure,rule_converged,1191
+2pl,transposed_em_correlated,objective_divergence,8
+2pl,transposed_em_correlated,rule_converged,1192
+2pl,transposed_em_diagonal,objective_divergence,3
+2pl,transposed_em_diagonal,rule_converged,1197

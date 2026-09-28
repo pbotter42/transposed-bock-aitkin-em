@@ -1,0 +1,15 @@
+{
+  "status": "incomplete_snapshot",
+  "cells": 16,
+  "planned_replicates_per_cell": 5,
+  "attempted_fits": 256,
+  "complete_matrices": 69,
+  "planned_fits": 300,
+  "new_fits_run": 0,
+  "parameter_archive_checks": 2008,
+  "all_original_results_preserved": true,
+  "parameter_inference_validated": false,
+  "source_manifest_sha256": "66fe7caaa784374fb46ad79b2b499a5a4fcedb09a32611d94dd9485aa23356ab",
+  "reporting_source_sha256": "3901ada9cbf2e6f01a56430b27df91fb9ead444be154e3e2bf4b094a265eecf9",
+  "all_seed_and_cell_identities_verified": true
+}

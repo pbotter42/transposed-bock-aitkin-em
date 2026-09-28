@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=77", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "transposed-em"
+version = "1.4.0rc1"
+description = "Laplace implementation of the transposed Bock-Aitkin EM algorithm for the preprint"
+readme = "README.md"
+requires-python = ">=3.10,<3.13"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{name = "Preston Botter"}]
+dependencies = [
+  "jax==0.4.30", "jaxlib==0.4.30", "numpy>=1.26,<2",
+  "scipy>=1.13,<2", "pandas>=2.2,<3",
+]
+
+[project.urls]
+Repository = "https://github.com/pbotter42/transposed-bock-aitkin-em"
+Issues = "https://github.com/pbotter42/transposed-bock-aitkin-em/issues"
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<9", "build>=1.2", "ruff>=0.6"]
+
+[project.scripts]
+transposed-em = "transposed_em.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 92
+target-version = "py310"

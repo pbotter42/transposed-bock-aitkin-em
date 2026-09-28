@@ -1,0 +1,4 @@
+partition,label,framework,model,method,n,brier,log_loss,calibration_intercept,calibration_slope,ece_10_equal_count,iterations,stopping_reason,admissible,parameter_count,selected_by
+test,Transposed EM 1PL,Transposed EM,1PL,"Normal, diagonal",318416,0.1400444439121848,0.4344339555713885,-0.0133561295108389,1.0365495012727586,0.0173929731921956,4,convergence_criteria,True,66,minimum validation log loss; parameter-count tie-break
+test,torch_measure 2PL,torch_measure,2PL,JML,318416,0.135983130152512,0.4235975135363353,0.0067621726552722,0.9090989753013604,0.008575550393274,93,loss_tolerance,True,196129,minimum validation log loss; parameter-count tie-break
+test,py-irt 2PL,py-irt,2PL,Variational,318416,0.2083035786301557,0.6006073773755048,-0.2230922131317553,1.041148150324378,0.0567244678865099,1950,smoothed_elbo_tolerance,True,196129,minimum validation log loss; parameter-count tie-break

@@ -1,0 +1,105 @@
+model,framework,parameter,availability,note
+1pl,transposed_em_diagonal,theta,available,"Replicate-level bias, MAE, RMSE and rank correlation"
+1pl,transposed_em_diagonal,individual_theta,not_recorded,Estimate/truth vectors were not retained in the simulation archive
+1pl,transposed_em_diagonal,b_j,not_recorded,Estimate/truth vectors were not retained in the simulation archive
+1pl,transposed_em_diagonal,a_j,not_applicable,Discrimination fixed at one in 1PL
+1pl,transposed_em_diagonal,log_a_j,not_applicable,Discrimination fixed at one in 1PL
+1pl,transposed_em_diagonal,mean_b,available,identification_constraint
+1pl,transposed_em_diagonal,sd_b,available,estimated
+1pl,transposed_em_diagonal,variance_b,available,derived
+1pl,transposed_em_diagonal,mean_log_a,not_applicable,Discrimination fixed at one in 1PL
+1pl,transposed_em_diagonal,sd_log_a,not_applicable,Discrimination fixed at one in 1PL
+1pl,transposed_em_diagonal,variance_log_a,not_applicable,Discrimination fixed at one in 1PL
+1pl,transposed_em_diagonal,cov_b_log_a,not_applicable,Discrimination fixed at one in 1PL
+1pl,transposed_em_diagonal,corr_b_log_a,not_applicable,Discrimination fixed at one in 1PL
+1pl,transposed_em_correlated,theta,not_applicable,No 1PL correlation parameter
+1pl,transposed_em_correlated,individual_theta,not_applicable,No 1PL correlation parameter
+1pl,transposed_em_correlated,b_j,not_applicable,No 1PL correlation parameter
+1pl,transposed_em_correlated,a_j,not_applicable,No 1PL correlation parameter
+1pl,transposed_em_correlated,log_a_j,not_applicable,No 1PL correlation parameter
+1pl,transposed_em_correlated,mean_b,not_applicable,No 1PL correlation parameter
+1pl,transposed_em_correlated,sd_b,not_applicable,No 1PL correlation parameter
+1pl,transposed_em_correlated,variance_b,not_applicable,No 1PL correlation parameter
+1pl,transposed_em_correlated,mean_log_a,not_applicable,No 1PL correlation parameter
+1pl,transposed_em_correlated,sd_log_a,not_applicable,No 1PL correlation parameter
+1pl,transposed_em_correlated,variance_log_a,not_applicable,No 1PL correlation parameter
+1pl,transposed_em_correlated,cov_b_log_a,not_applicable,No 1PL correlation parameter
+1pl,transposed_em_correlated,corr_b_log_a,not_applicable,No 1PL correlation parameter
+1pl,torch_measure,theta,partial,"RMSE saved; bias, MAE and rank correlation not saved"
+1pl,torch_measure,individual_theta,not_recorded,Estimate/truth vectors were not retained in the simulation archive
+1pl,torch_measure,b_j,not_recorded,Estimate/truth vectors were not retained in the simulation archive
+1pl,torch_measure,a_j,not_applicable,Discrimination fixed at one in 1PL
+1pl,torch_measure,log_a_j,not_applicable,Discrimination fixed at one in 1PL
+1pl,torch_measure,mean_b,not_estimated,No comparable random-item population parameter was estimated or saved
+1pl,torch_measure,sd_b,not_estimated,No comparable random-item population parameter was estimated or saved
+1pl,torch_measure,variance_b,not_estimated,No comparable random-item population parameter was estimated or saved
+1pl,torch_measure,mean_log_a,not_applicable,Discrimination fixed at one in 1PL
+1pl,torch_measure,sd_log_a,not_applicable,Discrimination fixed at one in 1PL
+1pl,torch_measure,variance_log_a,not_applicable,Discrimination fixed at one in 1PL
+1pl,torch_measure,cov_b_log_a,not_applicable,Discrimination fixed at one in 1PL
+1pl,torch_measure,corr_b_log_a,not_applicable,Discrimination fixed at one in 1PL
+1pl,py_irt,theta,available,"Replicate-level bias, MAE, RMSE and rank correlation"
+1pl,py_irt,individual_theta,not_recorded,Estimate/truth vectors were not retained in the simulation archive
+1pl,py_irt,b_j,not_recorded,Estimate/truth vectors were not retained in the simulation archive
+1pl,py_irt,a_j,not_applicable,Discrimination fixed at one in 1PL
+1pl,py_irt,log_a_j,not_applicable,Discrimination fixed at one in 1PL
+1pl,py_irt,mean_b,not_estimated,No comparable random-item population parameter was estimated or saved
+1pl,py_irt,sd_b,not_estimated,No comparable random-item population parameter was estimated or saved
+1pl,py_irt,variance_b,not_estimated,No comparable random-item population parameter was estimated or saved
+1pl,py_irt,mean_log_a,not_applicable,Discrimination fixed at one in 1PL
+1pl,py_irt,sd_log_a,not_applicable,Discrimination fixed at one in 1PL
+1pl,py_irt,variance_log_a,not_applicable,Discrimination fixed at one in 1PL
+1pl,py_irt,cov_b_log_a,not_applicable,Discrimination fixed at one in 1PL
+1pl,py_irt,corr_b_log_a,not_applicable,Discrimination fixed at one in 1PL
+2pl,transposed_em_diagonal,theta,available,"Replicate-level bias, MAE, RMSE and rank correlation"
+2pl,transposed_em_diagonal,individual_theta,not_recorded,Estimate/truth vectors were not retained in the simulation archive
+2pl,transposed_em_diagonal,b_j,not_recorded,Estimate/truth vectors were not retained in the simulation archive
+2pl,transposed_em_diagonal,a_j,not_recorded,Estimate/truth vectors were not retained in the simulation archive
+2pl,transposed_em_diagonal,log_a_j,not_recorded,Estimate/truth vectors were not retained in the simulation archive
+2pl,transposed_em_diagonal,mean_b,available,identification_constraint
+2pl,transposed_em_diagonal,sd_b,available,estimated
+2pl,transposed_em_diagonal,variance_b,available,derived
+2pl,transposed_em_diagonal,mean_log_a,available,identification_constraint
+2pl,transposed_em_diagonal,sd_log_a,available,estimated
+2pl,transposed_em_diagonal,variance_log_a,available,derived
+2pl,transposed_em_diagonal,cov_b_log_a,available,fixed_restriction
+2pl,transposed_em_diagonal,corr_b_log_a,available,fixed_restriction
+2pl,transposed_em_correlated,theta,available,"Replicate-level bias, MAE, RMSE and rank correlation"
+2pl,transposed_em_correlated,individual_theta,not_recorded,Estimate/truth vectors were not retained in the simulation archive
+2pl,transposed_em_correlated,b_j,not_recorded,Estimate/truth vectors were not retained in the simulation archive
+2pl,transposed_em_correlated,a_j,not_recorded,Estimate/truth vectors were not retained in the simulation archive
+2pl,transposed_em_correlated,log_a_j,not_recorded,Estimate/truth vectors were not retained in the simulation archive
+2pl,transposed_em_correlated,mean_b,available,identification_constraint
+2pl,transposed_em_correlated,sd_b,available,estimated
+2pl,transposed_em_correlated,variance_b,available,derived
+2pl,transposed_em_correlated,mean_log_a,available,identification_constraint
+2pl,transposed_em_correlated,sd_log_a,available,estimated
+2pl,transposed_em_correlated,variance_log_a,available,derived
+2pl,transposed_em_correlated,cov_b_log_a,available,derived
+2pl,transposed_em_correlated,corr_b_log_a,available,estimated
+2pl,torch_measure,theta,partial,"RMSE saved; bias, MAE and rank correlation not saved"
+2pl,torch_measure,individual_theta,not_recorded,Estimate/truth vectors were not retained in the simulation archive
+2pl,torch_measure,b_j,not_recorded,Estimate/truth vectors were not retained in the simulation archive
+2pl,torch_measure,a_j,not_recorded,Estimate/truth vectors were not retained in the simulation archive
+2pl,torch_measure,log_a_j,not_recorded,Estimate/truth vectors were not retained in the simulation archive
+2pl,torch_measure,mean_b,not_estimated,No comparable random-item population parameter was estimated or saved
+2pl,torch_measure,sd_b,not_estimated,No comparable random-item population parameter was estimated or saved
+2pl,torch_measure,variance_b,not_estimated,No comparable random-item population parameter was estimated or saved
+2pl,torch_measure,mean_log_a,not_estimated,No comparable random-item population parameter was estimated or saved
+2pl,torch_measure,sd_log_a,not_estimated,No comparable random-item population parameter was estimated or saved
+2pl,torch_measure,variance_log_a,not_estimated,No comparable random-item population parameter was estimated or saved
+2pl,torch_measure,cov_b_log_a,not_estimated,No comparable random-item population parameter was estimated or saved
+2pl,torch_measure,corr_b_log_a,not_estimated,No comparable random-item population parameter was estimated or saved
+2pl,py_irt,theta,available,"Replicate-level bias, MAE, RMSE and rank correlation"
+2pl,py_irt,individual_theta,not_recorded,Estimate/truth vectors were not retained in the simulation archive
+2pl,py_irt,b_j,not_recorded,Estimate/truth vectors were not retained in the simulation archive
+2pl,py_irt,a_j,not_recorded,Estimate/truth vectors were not retained in the simulation archive
+2pl,py_irt,log_a_j,not_recorded,Estimate/truth vectors were not retained in the simulation archive
+2pl,py_irt,mean_b,not_estimated,No comparable random-item population parameter was estimated or saved
+2pl,py_irt,sd_b,not_estimated,No comparable random-item population parameter was estimated or saved
+2pl,py_irt,variance_b,not_estimated,No comparable random-item population parameter was estimated or saved
+2pl,py_irt,mean_log_a,not_estimated,No comparable random-item population parameter was estimated or saved
+2pl,py_irt,sd_log_a,not_estimated,No comparable random-item population parameter was estimated or saved
+2pl,py_irt,variance_log_a,not_estimated,No comparable random-item population parameter was estimated or saved
+2pl,py_irt,cov_b_log_a,not_estimated,No comparable random-item population parameter was estimated or saved
+2pl,py_irt,corr_b_log_a,not_estimated,No comparable random-item population parameter was estimated or saved

@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying preprint when using this implementation."
+title: "Transposed Bock-Aitkin EM: preprint software"
+type: software
+version: 1.4.0rc1
+date-released: 2026-09-28
+license: MIT
+authors:
+  - family-names: Botter
+    given-names: Preston
+repository-code: "https://github.com/pbotter42/transposed-bock-aitkin-em"
+url: "https://github.com/pbotter42/transposed-bock-aitkin-em/releases/tag/v1.4.0rc1"
+preferred-citation:
+  type: unpublished
+  title: "A Transposed Bock-Aitkin EM Algorithm for Item Response Models with Many Items and Few Subjects"
+  authors:
+    - family-names: Botter
+      given-names: Preston
+    - family-names: Stewart
+      given-names: Christopher
+  year: 2026
+  month: 9
+  url: "https://github.com/pbotter42/transposed-bock-aitkin-em/releases/tag/v1.4.0rc1"
+  notes: "Preprint; not the final manuscript."

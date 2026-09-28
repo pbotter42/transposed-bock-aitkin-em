@@ -1,0 +1,5 @@
+left,right,metric,difference_definition,difference,ci_lower,ci_upper,bootstrap_repetitions,cluster
+Transposed EM 2PL correlated,torch_measure 1PL,Brier,left_minus_right,-0.004345860156819931,-0.004517136731858506,-0.004175423784966614,2000,item
+Transposed EM 2PL correlated,torch_measure 1PL,Log loss,left_minus_right,-0.015130092322431435,-0.01567767532446953,-0.014587227788380555,2000,item
+Transposed EM 2PL correlated,py-irt 2PL,Brier,left_minus_right,0.00016416574977155582,0.00011894825276943926,0.00021383074263398483,2000,item
+Transposed EM 2PL correlated,py-irt 2PL,Log loss,left_minus_right,-0.00017855775146459696,-0.00034349340004442554,-1.9369673372260604e-05,2000,item
