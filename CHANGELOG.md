@@ -1,5 +1,15 @@
 # Changelog
 
+## Preprint v26 - Focused supplement, 2026-09-28
+
+- Reduce the supplement from 35 to 11 pages, retaining the current article's
+  parameter-recovery tables, predictive diagnostics, and WILD estimates.
+- Remove the development history and earlier-analysis appendices from the
+  supplement; preserve them in previous releases.
+- Correct the main paper's pointers to supplementary and machine-readable
+  results. Keep reported values and the planned 2,000-replication target unchanged.
+- Rebuild both PDFs and verify the Overleaf ZIP in a clean directory.
+
 ## Preprint v25 - Replication plan, 2026-09-28
 
 - Set the planned study to 2,000 assigned replications per condition across

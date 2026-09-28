@@ -68,8 +68,10 @@ relationship between this release and the reported analyses.
 
 ## Paper and Results
 
-The [preprint release](https://github.com/pbotter42/transposed-bock-aitkin-em/releases/tag/preprint-v25)
+The [preprint release](https://github.com/pbotter42/transposed-bock-aitkin-em/releases/tag/preprint-v26)
 contains the main PDF, supplement, and an Overleaf-ready source ZIP.
+The supplement contains parameter-recovery tables, predictive diagnostics,
+and WILD capability estimates supporting the current article.
 The [`results/`](results) directory contains the preprint's saved result tables.
 The 100-replication study and the smaller numerical diagnostic study are
 distinct. The planned study has **2,000 assigned replications per condition**

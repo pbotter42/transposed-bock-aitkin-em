@@ -46,5 +46,8 @@ testable source lineage, saved reporting tables, and the paper's buildable
 source. No production simulations were rerun to prepare this release.
 
 The Overleaf ZIP in the GitHub release compiles the main paper and
-supplement independently. The GitHub tag fixes this software snapshot;
+supplement independently. In `preprint-v26`, the supplement is limited to
+the tables and diagnostics supporting the current article. Previous
+releases remain available; no reported values or fitting code changed.
+The GitHub tag fixes this software snapshot;
 it is not a DOI or a claim that the preprint has been accepted by a journal.
