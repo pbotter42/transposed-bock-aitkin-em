@@ -29,8 +29,10 @@ python -m pip install "git+https://github.com/pbotter42/transposed-bock-aitkin-e
 ```
 
 No private files, data downloads, API keys, or machine-specific paths are needed.
-Dependencies are installed automatically. JAX requires a supported platform;
-the automated tests cover Linux, and the release is also checked on macOS.
+Dependencies are installed automatically. JAX requires a supported platform.
+The release is tested locally on macOS with Python 3.11; a Linux test workflow
+is configured for Python 3.10-3.12. See [release checks](docs/release-checks.md)
+for what was actually run and the current GitHub Actions limitation.
 
 ## Fit a Model
 
