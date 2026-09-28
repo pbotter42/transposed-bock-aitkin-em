@@ -26,7 +26,9 @@ is one or two, regardless of the number of subjects. Conventional
 effects; here the item effects are integrated out. Conditional independence
 and the normal item-population model are substantive assumptions.
 
-Fixing the item means at zero identifies location and, in the 2PL, scale.
+Fixing the item means at zero removes the location and, in the 2PL, scale
+indeterminacy. It does not by itself establish local or global identification
+of the remaining parameters.
 The model does not standardize the fitted capabilities to mean zero and
 variance one. The number of items is the replication dimension in the
 paper's asymptotic argument; adding more items does not establish that a
@@ -40,7 +42,9 @@ small-subject Laplace approximation is accurate.
 2. Represent that Gaussian by `2d` symmetric cubature nodes with equal
    weights, where `d` is the item-effect dimension. Before clipping, these
    nodes match its mean and covariance. They are not AGHQ nodes.
-3. Pool the posterior moments, obtaining a mean `m` and covariance `S`.
+3. Pool the clipped nodes' moments, obtaining a mean `m` and covariance `S`.
+   These equal the Gaussian moments only when clipping is inactive;
+   covariance stabilization can modify `S` further.
    Set `s=exp(m_alpha)` for the 2PL and `s=1` for the 1PL. Transform
    `b*=s(b-m_b)`, `theta*=s(theta-m_b)`, and `alpha*=alpha-m_alpha`.
    This preserves the response probabilities before bounding. The candidate
@@ -52,8 +56,9 @@ small-subject Laplace approximation is accurate.
    $$\sum_{j\in O_i}\sum_k w_{jk}a_{jk}
      \{y_{ij}-\operatorname{logit}^{-1}[a_{jk}(\theta_i-b_{jk})]\}=0.$$
 
-   Its derivative is nonpositive. If no interior root exists, choose the
-   appropriate bound. Brent's method finds interior roots.
+   Its mathematical derivative is nonpositive. Endpoint sign tests choose
+   a bound, otherwise Brent's method finds a root. Sigmoid saturation can
+   invalidate those sign tests for extreme responses; see the limitations below.
 5. Dampen both capability and covariance updates by `damping` (default
    `0.5`), and repeat. Retain the state actually checked at termination,
    not an unchecked extra update.
@@ -75,8 +80,12 @@ The maximum is 1,000 iterations, with 20 item Newton steps per iteration.
 For shorter requested fits, the minimum iteration count is capped at the
 requested maximum.
 
-Item modes and cubature nodes are bounded to `[-10,10]`; capabilities are
-bounded to `[-6,6]`. Hessian regularization is `1e-4`; the cubature precision
+Item modes and cubature nodes are bounded to `[-10,10]`; capability candidates
+are bounded to `[-6,6]`. Initialization and normalization can put a returned
+structural state outside that interval, especially at a short iteration cap.
+The raw item Hessian receives an additive `1e-4 I` before eigenvalue flooring
+at `1e-4`. That repaired matrix enters the diagnostic Laplace determinant;
+the cubature precision
 eigenvalues are clipped to `[1e-4,1e8]`. Population covariance stabilization
 uses a `1e-6` floor. Clipping changes the nominal Gaussian moments and is
 reported through boundary diagnostics. These are numerical safeguards,
@@ -86,6 +95,29 @@ An iteration limit returns estimates with `stopping_reason_="iteration_limit"`.
 A nonfinite posterior step raises an exception and leaves no fitted result.
 No failed fit is silently retried. A small score residual, a stable moment
 map, and an accurate integral are different numerical properties.
+
+## Numerical Limitations in 1.4.0rc1
+
+- The eigenvector cubature axes can rotate abruptly near repeated covariance
+  eigenvalues. Matching Gaussian moments through degree three does not make
+  nonlinear predictions continuous there. A continuous matrix-square-root
+  rule would define a different numerical estimator.
+- Gaussian covariance exports describe the distribution before node clipping,
+  not necessarily the covariance of the nodes used for population updates.
+  Raw item-curvature repair magnitudes are not exported; positive repaired
+  curvature is not a certificate of an unmodified posterior minimum.
+- The in-fit score uses `y-expit(z)`. An all-correct row with saturated positive
+  logits can produce zero at both endpoints and select the lower bound.
+  Explicit extreme-pattern guards and cancellation-resistant residuals are
+  needed before relying on such cases.
+- Frozen-bank scoring clips probabilities before integration and logging.
+  It can return an arbitrary interior point on a flat clipped tail, and a
+  single bounded search can miss a better local optimum. It is not a
+  certified global predictive-likelihood maximizer.
+
+These are documented limitations of the released implementation, not evidence
+that every saved study fit encountered them. Preprint v29 qualifies its claims
+accordingly. It does not change the fitting code or recalculate study results.
 
 ## New Subjects and Uncertainty
 

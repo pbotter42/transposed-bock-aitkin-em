@@ -1,8 +1,10 @@
-# Preprint Reporting Snapshot
+# Preprint Result Files
 
-These 32 CSV/JSON files accompany the September 2026 preprint. They are
-unchanged copies of the manuscript's reporting snapshot; `manifest.json`
-records their SHA-256 hashes. No new fits were used to prepare this release.
+These 32 CSV/JSON files preserve the results distributed with the September
+2026 preprint series. `manifest.json` records their SHA-256 hashes. No new
+fits were used to prepare this release. The current article uses the
+top-level simulation files and `validation_wild/`; the other files are
+preserved for provenance, not included as additional evidence in version 29.
 
 - Top-level simulation files describe the historical 16-condition study,
   with 100 assigned response matrices per condition. Assignment and
@@ -10,7 +12,8 @@ records their SHA-256 hashes. No new fits were used to prepare this release.
   `outcomes_by_cell.csv`, and `metric_availability.csv` before interpreting
   the conditional performance and recovery summaries.
 - `revised_snapshot/` describes the separate 69-matrix numerical diagnostic
-  study. Its records must not be pooled with the historical simulation.
+  study, which is not part of version 29. Its records must not be pooled
+  with the reported simulation.
 - Top-level `wild_*.csv` files contain the historical WILD application
   summaries, capability estimates, and predictive bootstrap contrasts.
 - `validation_wild/` contains the separately reported revised WILD fits

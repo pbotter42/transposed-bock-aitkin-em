@@ -10,12 +10,11 @@ Three records must be distinguished:
 | Record | Status and relationship to this repository |
 | --- | --- |
 | Simulation comparison | 100 assigned replications in each of 16 conditions; saved summaries in `results/`. Its fitting implementation and stopping rule differ from this public package. |
-| Numerical assessment | 69 matrices, 256 applicable fits, frozen package 1.3.1; reported separately in the preprint. The public estimator retains its normalized fitting map. |
+| WILD application | Seven candidate fits to 65 models and 98,032 retained items, with 2,000 item-cluster predictive bootstrap resamples per contrast. The TBAEM fits use frozen package 1.3.1. |
 | Planned confirmation study | 2,000 assigned replications per condition in 24 conditions: 48,000 matrices and 184,000 applicable fits; future work, not results supplied by this release. |
 
-The `preprint-v25` documentation update changes this planned target, not an
-existing frozen run or its replication ledger. The numerical software and
-reported results are unchanged.
+The planned target does not change an existing frozen run or its replication
+ledger. The numerical software and retained results are unchanged.
 
 `tests/reference_v1.3.1.zip` is the unchanged source of the diagnostic package,
 included for regression tests and provenance, not installed as the public
@@ -50,7 +49,7 @@ source. No production simulations were rerun to prepare this release.
 These are the environments used for the reported analyses, not a claim
 that installing the current package recreates every fitted model.
 
-| Component | 100-replication comparison | 69-dataset numerical assessment |
+| Component | 100-replication comparison | WILD application |
 | --- | --- | --- |
 | Common environment | Python 3.11; NumPy 1.26.4; SciPy 1.13.1; pandas 2.3.3; JAX 0.4.30; PyTorch 2.2.2; py-irt 0.7.1 | Common PyTorch 2.2.2 environment |
 | Transposed estimator | Archived local package source; not the current public release | Frozen package 1.3.1 |
@@ -58,19 +57,18 @@ that installing the current package recreates every fitted model.
 
 Both `torch_measure` adapters use source commit
 `a461a8f24eb2960f692afdac0a2202c7d1d507ad`. The differing installed development
-labels do not denote different source commits. The paper's fitting-configuration
-table specifies study-specific stopping rules; an environment version alone
-does not establish estimator equivalence. Source hashes and parameter vectors
-for the numerical assessment remain in the authors' local archives.
+labels do not denote different source commits. The paper's simulation and
+application sections specify their stopping rules; an environment version
+alone does not establish estimator equivalence.
 
 ## Manuscript Source
 
 The Overleaf ZIP in the GitHub release compiles the main paper and
-supplement independently without running a model. In `preprint-v28`,
-the selection derivation and constrained-update proposition are appendices.
-The supplement reports recovery of estimated parameters; fixed-zero
-correlation and covariance rows for the diagonal model remain in the CSVs
-but are omitted from the typeset recovery tables. Previous releases remain
-available; no saved results or fitting code changed.
+supplement independently without running a model. The `preprint-v29` bundle
+contains only the 100-replication simulation and WILD application result
+files. The separate 69-dataset assessment is no longer part of the article;
+its unmodified records remain in `results/revised_snapshot/` for provenance
+and must not be pooled with the reported simulation. Previous releases
+remain available. No saved estimates or fitting code changed.
 The GitHub tag fixes this software snapshot;
 it is not a DOI or a claim that the preprint has been accepted by a journal.

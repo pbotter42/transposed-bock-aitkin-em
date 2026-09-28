@@ -1,5 +1,18 @@
 # Changelog
 
+## Preprint v29 - Statistical qualifications, 2026-09-28
+
+- Remove the separate 69-dataset assessment and its dependent empirical
+  claims. Retain the 100-replication comparison and WILD application.
+- Distinguish the simulation's update/stopping rules, unchecked final update,
+  penalized JML, and VI checkpoint selection from the WILD/reference procedure.
+- Clarify theorem assumptions, local identification, eigenvector-cubature
+  regularity, clipped moments, curvature safeguards, and scoring limitations.
+- Correct WILD partition chronology, bootstrap weighting and cluster count,
+  parameter-scale descriptions, and result-file routing.
+- Preserve fitting code, raw result records, prior releases, and the planned
+  2,000 replications per condition. No study fits or resamples were rerun.
+
 ## Preprint v28 - Focused presentation, 2026-09-28
 
 - Move the item-selection derivation and constrained-update proposition to

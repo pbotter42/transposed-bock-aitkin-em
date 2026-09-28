@@ -14,6 +14,9 @@ The implementation uses a Laplace approximation and a damped, normalized
 posterior-moment iteration. It is **not an exact marginal-likelihood optimizer**.
 The [method notes](docs/method.md) describe the equations, identification,
 updates, and stopping rule.
+Read the [numerical limitations](docs/method.md#numerical-limitations-in-140rc1)
+before using extreme-response or frozen-bank scores. The preprint update does
+not change the fitting code or imply that these edge cases are fixed.
 
 Supported models are the 1PL and the 2PL, with either zero or estimated
 correlation between item difficulty `b` and **log discrimination** `log(a)`.
@@ -68,13 +71,13 @@ relationship between this release and the reported analyses.
 
 ## Paper and Results
 
-The [preprint release](https://github.com/pbotter42/transposed-bock-aitkin-em/releases/tag/preprint-v28)
+The [preprint release](https://github.com/pbotter42/transposed-bock-aitkin-em/releases/tag/preprint-v29)
 contains the main PDF, supplement, and an Overleaf-ready source ZIP.
-The supplement contains parameter-recovery tables, predictive diagnostics,
-and WILD capability estimates supporting the current article.
+The supplement contains WILD capability estimates and a guide to the
+condition-specific simulation result files supporting the current article.
 The [`results/`](results) directory contains the preprint's saved result tables.
-The 100-replication comparison and the 69-dataset numerical assessment are
-distinct. The planned study has **2,000 assigned replications per condition**
+The article reports a 100-replication comparison and the WILD application.
+The planned study has **2,000 assigned replications per condition**
 across 24 conditions: 48,000 datasets and 184,000 applicable fits. It is future
 work, not a result of this release.
 The repository does not redistribute WILD responses or claim
