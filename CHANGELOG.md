@@ -1,5 +1,15 @@
 # Changelog
 
+## Preprint v27 - Study presentation, 2026-09-28
+
+- Name the numerical studies by scientific purpose, without manuscript-development
+  labels in the article or supplement.
+- Add a compact comparison of the fitting configurations, streamline the WILD
+  narrative, and present the 2,000-replication plan under Further Research.
+- Preserve study-specific denominators, exploratory status, and inference limits.
+- Verify unchanged mathematical blocks, numerical tables, and result-file hashes;
+  rebuild the PDFs independently from the Overleaf ZIP.
+
 ## Preprint v26 - Focused supplement, 2026-09-28
 
 - Reduce the supplement from 35 to 11 pages, retaining the current article's

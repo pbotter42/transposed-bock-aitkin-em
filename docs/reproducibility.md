@@ -9,8 +9,8 @@ Three records must be distinguished:
 
 | Record | Status and relationship to this repository |
 | --- | --- |
-| Historical simulation | 100 assigned replications in each of 16 conditions; saved summaries in `results/`. It used an earlier implementation and stopping rule, not this public package. |
-| Revised numerical diagnostic | 69 matrices, 256 applicable fits, frozen package 1.3.1; reported separately in the preprint. The new public estimator retains its normalized fitting map. |
+| Simulation comparison | 100 assigned replications in each of 16 conditions; saved summaries in `results/`. Its fitting implementation and stopping rule differ from this public package. |
+| Numerical assessment | 69 matrices, 256 applicable fits, frozen package 1.3.1; reported separately in the preprint. The public estimator retains its normalized fitting map. |
 | Planned confirmation study | 2,000 assigned replications per condition in 24 conditions: 48,000 matrices and 184,000 applicable fits; future work, not results supplied by this release. |
 
 The `preprint-v25` documentation update changes this planned target, not an
@@ -46,7 +46,8 @@ testable source lineage, saved reporting tables, and the paper's buildable
 source. No production simulations were rerun to prepare this release.
 
 The Overleaf ZIP in the GitHub release compiles the main paper and
-supplement independently. In `preprint-v26`, the supplement is limited to
+supplement independently. In `preprint-v27`, the studies are described by
+scientific purpose and fitting configuration. The supplement is limited to
 the tables and diagnostics supporting the current article. Previous
 releases remain available; no reported values or fitting code changed.
 The GitHub tag fixes this software snapshot;
