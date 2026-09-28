@@ -68,12 +68,15 @@ relationship between this release and the reported analyses.
 
 ## Paper and Results
 
-The [preprint release](https://github.com/pbotter42/transposed-bock-aitkin-em/releases/tag/v1.4.0rc1)
+The [preprint release](https://github.com/pbotter42/transposed-bock-aitkin-em/releases/tag/preprint-v25)
 contains the main PDF, supplement, and an Overleaf-ready source ZIP.
 The [`results/`](results) directory contains the preprint's saved result tables.
 The 100-replication study and the smaller numerical diagnostic study are
-distinct. The planned 200-replication study is future work, not a result of
-this release. The repository does not redistribute WILD responses or claim
+distinct. The planned study has **2,000 assigned replications per condition**
+across 24 conditions: 48,000 datasets and 184,000 applicable fits. It is future
+work, not a result of this release. This documentation update does not change
+an existing frozen run or its replication ledger.
+The repository does not redistribute WILD responses or claim
 to reconstruct historical parameter vectors that were not saved.
 
 For development, clone this repository, run `python -m pip install -e '.[dev]'`,

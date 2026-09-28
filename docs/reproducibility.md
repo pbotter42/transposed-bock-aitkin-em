@@ -11,7 +11,11 @@ Three records must be distinguished:
 | --- | --- |
 | Historical simulation | 100 assigned replications in each of 16 conditions; saved summaries in `results/`. It used an earlier implementation and stopping rule, not this public package. |
 | Revised numerical diagnostic | 69 matrices, 256 applicable fits, frozen package 1.3.1; reported separately in the preprint. The new public estimator retains its normalized fitting map. |
-| Planned confirmation study | 200 assigned replications in 24 conditions; future work, not results supplied by this release. |
+| Planned confirmation study | 2,000 assigned replications per condition in 24 conditions: 48,000 matrices and 184,000 applicable fits; future work, not results supplied by this release. |
+
+The `preprint-v25` documentation update changes this planned target, not an
+existing frozen run or its replication ledger. The numerical software and
+reported results are unchanged.
 
 `tests/reference_v1.3.1.zip` is the unchanged source of the diagnostic package,
 included for regression tests and provenance, not installed as the public

@@ -1,5 +1,13 @@
 # Changelog
 
+## Preprint v25 - Replication plan, 2026-09-28
+
+- Set the planned study to 2,000 assigned replications per condition across
+  24 conditions: 48,000 datasets and 184,000 applicable fitting attempts.
+- Update the corresponding maximum binomial Monte Carlo standard error to .011.
+- Preserve the completed results, numerical software, and frozen execution
+  protocol. This is a documentation update, not a new simulation run.
+
 ## 1.4.0rc1 - Preprint release, 2026-09-28
 
 - Publish a focused `LaplaceIRT` API for the 1PL and diagonal/full 2PL.
