@@ -39,16 +39,38 @@ are recorded in `results/manifest.json`; `results/README.md` describes the
 groups. They are aggregate and selected estimate exports, not the complete
 run archive. WILD response data, historical missing parameter vectors,
 full bootstrap draws, and machine-specific simulation supervisors are not
-redistributed here. The older study's exact environment and adapters are
-described in the paper. This repository is therefore **not a one-command
+redistributed here. The study-specific environments are recorded below.
+This repository is therefore **not a one-command
 reproduction of every table from raw data**. It supplies the estimator,
 testable source lineage, saved reporting tables, and the paper's buildable
 source. No production simulations were rerun to prepare this release.
 
+## Computational Environments
+
+These are the environments used for the reported analyses, not a claim
+that installing the current package recreates every fitted model.
+
+| Component | 100-replication comparison | 69-dataset numerical assessment |
+| --- | --- | --- |
+| Common environment | Python 3.11; NumPy 1.26.4; SciPy 1.13.1; pandas 2.3.3; JAX 0.4.30; PyTorch 2.2.2; py-irt 0.7.1 | Common PyTorch 2.2.2 environment |
+| Transposed estimator | Archived local package source; not the current public release | Frozen package 1.3.1 |
+| `torch_measure` | Isolated adapter, development label 0.1.dev1, PyTorch 2.13.0 | Development label 0.1.1.dev23, PyTorch 2.2.2 |
+
+Both `torch_measure` adapters use source commit
+`a461a8f24eb2960f692afdac0a2202c7d1d507ad`. The differing installed development
+labels do not denote different source commits. The paper's fitting-configuration
+table specifies study-specific stopping rules; an environment version alone
+does not establish estimator equivalence. Source hashes and parameter vectors
+for the numerical assessment remain in the authors' local archives.
+
+## Manuscript Source
+
 The Overleaf ZIP in the GitHub release compiles the main paper and
-supplement independently. In `preprint-v27`, the studies are described by
-scientific purpose and fitting configuration. The supplement is limited to
-the tables and diagnostics supporting the current article. Previous
-releases remain available; no reported values or fitting code changed.
+supplement independently without running a model. In `preprint-v28`,
+the selection derivation and constrained-update proposition are appendices.
+The supplement reports recovery of estimated parameters; fixed-zero
+correlation and covariance rows for the diagonal model remain in the CSVs
+but are omitted from the typeset recovery tables. Previous releases remain
+available; no saved results or fitting code changed.
 The GitHub tag fixes this software snapshot;
 it is not a DOI or a claim that the preprint has been accepted by a journal.

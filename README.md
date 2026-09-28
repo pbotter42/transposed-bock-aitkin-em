@@ -68,7 +68,7 @@ relationship between this release and the reported analyses.
 
 ## Paper and Results
 
-The [preprint release](https://github.com/pbotter42/transposed-bock-aitkin-em/releases/tag/preprint-v27)
+The [preprint release](https://github.com/pbotter42/transposed-bock-aitkin-em/releases/tag/preprint-v28)
 contains the main PDF, supplement, and an Overleaf-ready source ZIP.
 The supplement contains parameter-recovery tables, predictive diagnostics,
 and WILD capability estimates supporting the current article.

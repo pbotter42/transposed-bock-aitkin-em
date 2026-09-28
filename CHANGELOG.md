@@ -1,5 +1,16 @@
 # Changelog
 
+## Preprint v28 - Focused presentation, 2026-09-28
+
+- Move the item-selection derivation and constrained-update proposition to
+  appendices, with main-text summaries and cross-references.
+- Condense the discussion of amortized neural IRT and remove the generic roadmap.
+- Move environment inventories and source identifiers to reproducibility notes;
+  keep build and deposit instructions in the source-bundle README.
+- Omit fixed-parameter rows from recovery tables, retaining them in the CSVs.
+- Preserve the Further Research and Extensions sections, numerical results,
+  fitting software, and planned 2,000 replications per condition.
+
 ## Preprint v27 - Study presentation, 2026-09-28
 
 - Name the numerical studies by scientific purpose, without manuscript-development
