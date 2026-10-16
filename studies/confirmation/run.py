@@ -4,10 +4,16 @@ import argparse
 from contextlib import contextmanager
 from dataclasses import asdict
 import json
+import os
 from pathlib import Path
 import sys
 import time
 import traceback
+
+# Pin to the core launch.py assigned before numerical libraries start thread pools.
+# XLA otherwise spreads large TBAEM fits over several cores despite the BLAS limits.
+if "TBAEM_CPU" in os.environ and hasattr(os, "sched_setaffinity"):
+    os.sched_setaffinity(0, {int(os.environ["TBAEM_CPU"])})
 
 from protocol_tools import ROOT, OUTPUT, protocol, verify
 sys.path.insert(0, str(ROOT))
@@ -136,7 +142,8 @@ def main():
         if len(candidates) != 1:
             raise ValueError("Unknown production coordinate")
         cell = candidates[0]
-    with exclusive_lock(args.output / "worker.lock"):
+    # One process per matrix; launch.py's supervisor lock excludes a second supervisor.
+    with exclusive_lock(args.output / "locks" / cell.label / f"rep_{cell.replicate:03d}.lock"):
         run_cell(cell, settings, args.output, source_hash, phase)
 
 
